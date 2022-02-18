@@ -1,0 +1,40 @@
+https://drive.google.com/drive/u/1/folders/1ucN3UcczMDc0gFJmJ2XbVYCr2vcgrzDD
+
+
+
+N a r u t o
+
+https://drive.google.com/drive/folders/1pbfr2w4-JwynKjABj7KFZT-39uyQHJJm (417-430)
+
+https://drive.google.com/drive/folders/1Bp7FGSFbMO33czwP4e5oFDZBsofKG44X (431-444)
+
+https://drive.google.com/drive/folders/1qORZvl2Vj6Pfqc-v1ImLHJ-xoVncZFkW (445-458)
+
+https://drive.google.com/drive/folders/1W-hs3u_yM9Ci2G-bEdC6OkZltW7aZlYZ (459-472)
+
+https://drive.google.com/drive/folders/1EOrotf2qFu1CAErJaF7DDgiPgq6SOMrM (473-486)
+
+https://drive.google.com/drive/folders/1y9nIRvFhCaQY8mICbovtzt94wLPcbmsJ (487-500)
+
+https://animekayo.com/?s=baruto
+
+
+EL9MXUR
+
+ZPHK82R
+const db = knex({
+  client: 'pg',
+  connection: {
+    host : '127.0.0.1',
+    user : 'postgres',
+    password : '1252',
+    database : 'smartBrain'
+  }
+});
+
+PHACC:{
+
+Email:-jamesledford72@me.com
+
+Password:- tyler420
+}

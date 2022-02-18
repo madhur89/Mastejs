@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FLex Box Exercise</title>
+	<!-- <link rel="stylesheet" type="text/css" href=""> -->
+	<style>
+
+			@-ms-viewport {
+			 	width: device-width;
+			}
+		body{
+			margin: 0px;
+			font-family: cursive;
+			outline: none;
+		}
+		.flex-container {
+			display: flex;
+			background: greenyellow;
+			flex-wrap: wrap;
+		}
+		.flex-container > div{
+			width: 300px;
+			height: 200px;
+			margin: 30px;
+			padding: 40px;
+			padding-bottom:250px;
+			background: skyblue;
+			color: white;
+			border-radius: 10px;
+			border: 0px solid orangered;
+			align-items: center;
+		}
+		.flip-card {
+		  background-color: transparent;
+		  width: 300px;
+		  height: 300px;
+		  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: transparent;
+  color: white;
+}
+
+.flip-card-back {
+  background-color:transparent;
+  color: white;
+  paddingl: 20px;
+  transform: rotateY(180deg);
+}
+
+
+		.Buy-btn {
+			padding: 20px;
+			margin-top:10px;
+			border-radius: 10px;
+			border: 2px blue;
+			outline: none;
+			transition: 0.30s;
+		}
+
+		.Buy-btn:hover {
+			background: greenyellow;
+			color: white;
+			box-shadow: 10px;
+		}
+		img{
+			width: 280px;
+			height: 180px;
+			transition: 0.30s;
+		}
+	.addcrt {
+		margin: 40px;
+		transition: 0.50s;
+		color: white;
+	}
+	.addcrt:hover {
+		color: red;
+		cursor: cell;
+	}
+	
+	</style>
+</head>
+<body>
+<div class="flex-container">
+		<div class="Content">
+			<h1>Head Phones</h1>
+			<img src="https://images.unsplash.com/photo-1599669454699-248893623440?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhlYWRwaG9uZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="pic">
+			<p>Wireless HeadPhones with Long Battery Standby</p>
+			<button class="Buy-btn">BUY NOW</button>
+			<a  class="addcrt">Add to cart</a>
+		</div>		
+		<div class="Content">
+			<h1>Head Phones</h1>
+			<img src="https://images.unsplash.com/photo-1599669454699-248893623440?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhlYWRwaG9uZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="pic" alt="pic">
+			<p>Wireless HeadPhones with Long Battery Standby</p>
+			<button class="Buy-btn">BUY NOW</button>
+		</div>
+		<div class="Content">
+			<h1>Head Phones</h1>
+			<img src="https://images.unsplash.com/photo-1599669454699-248893623440?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhlYWRwaG9uZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="pic" alt="pic">
+			<p>Wireless HeadPhones with Long Battery Standby</p>
+			<button class="Buy-btn">BUY NOW</button>
+				</div>
+				<div class="flip-card">
+		  	<div class="flip-card-inner">
+		    <div class="flip-card-front">
+		    <h1>Head Phones</h1>
+		      <img class="flipimage" src="https://images.unsplash.com/photo-1599669454699-248893623440?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhlYWRwaG9uZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="pic" alt="Avatar" style="width:280px;height:180px;">
+		      	<p>Wireless HeadPhones with Long Battery Standby</p>
+		      	<div class="flip-btn">
+		      		<button class="Buy-btn">BUY NOW</button>
+		      	</div>
+				<!-- <button class="Buy-btn">BUY NOW</button> -->
+		    </div>
+		    <div class="flip-card-back">
+		      <h1>HQ MONITOR Head Phones</h1> 
+		      <p>GRAB IT NOW</p> 
+		      <p>FLAT 30% DISCOUNT</p>
+		    </div>
+		  </div>
+		</div>
+		<div class="Content">
+			<h1>Head Phones</h1>
+			<img src="https://images.unsplash.com/photo-1599669454699-248893623440?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhlYWRwaG9uZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="pic" alt="pic">
+			<p>Wireless HeadPhones with Long Battery Standby</p>
+			<button class="Buy-btn">BUY NOW</button>
+		</div>		
+		<div class="Content">
+			<h1>Head Phones</h1>
+			<img src="https://images.unsplash.com/photo-1599669454699-248893623440?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhlYWRwaG9uZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="pic" alt="pic">
+			<p>Wireless HeadPhones with Long Battery Standby</p>
+			<button class="Buy-btn">BUY NOW</button>
+		</div>
+		<!-- <div class="Cotent">
+			<h1>Head Phones</h1>
+			<img src="https://images.unsplash.com/photo-1599669454699-248893623440?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGhlYWRwaG9uZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80" alt="pic" alt="pic">
+			<p>Wireless HeadPhones with Long Battery Standby</p>
+			<button class="Buy-btn">BUY NOW</button>
+		</div>				 -->
+</div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<title>JS prac</title>
+<body style="background: url(https://static9.depositphotos.com/1389325/1091/v/950/depositphotos_10910042-stock-illustration-mathematics-school-supplies-geometric-shapes.jpg);">
+<div class="container shadow-lg col-3 text-center" style="margin-top: 5%; margin-left: 35%; border: 0px solid skyblue;
+        border-radius: 20px; background: skyblue; opacity: 90%;">
+<form onsubmit="return false">
+    <h4 class="text-light mt-3">CALCULATOR</h4>
+  <div class="mb-3 col-11">
+    <label for="exampleInputEmail1" class="form-label text-primary fw-bolder">NUM1</label>
+    <input type="number" class="form-control text-danger ms-3 shadow-sm fw-bolder text-center" id="num1" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3 col-11">
+    <label for="exampleInputPassword1" class="form-label text-primary fw-bolder">NUM2</label>
+    <input type="number" class="form-control text-danger ms-3 shadow-sm  fw-bolder text-center" id="num2">
+  </div>
+  <div class="mb-3 col-11">
+    <label for="exampleInputPassword1" class="form-label text-danger fw-bolder">ANSWER</label>
+    <input type="number" class="form-control text-success ms-3 fw-bold text-center" id="res" disabled>
+  </div>
+  <button type="submit" class="btn btn-outline-danger btn-lg m-1" onclick="add()">+</button>
+  <button type="submit" class="btn btn-outline-danger btn-lg m-1" onclick="subtract()">-</button>
+  <button type="submit" class="btn btn-outline-danger btn-lg m-1" onclick="multiply()">X</button>
+  <button type="submit" class="btn btn-outline-danger btn-lg m-1" onclick="divide()">/</button>
+  <button type="submit" class="btn btn-outline-danger btn-lg m-1" onclick="percentage()">%</button>
+  <button type="reset" class="btn btn-outline-primary btn-lg m-1 mb-3 col-11 shadow-sm" onclick="clear()">CLEAR</button>
+</form>
+</div>
+
+
+
+
+
+  <script>
+        
+      const add = () => {
+        let a = Number(document.getElementById("num1").value);
+        let b = Number(document.getElementById("num2").value);
+        let ans = document.getElementById("res");
+        let total = a + b;  
+        ans.value = total;
+      }
+      const subtract = () => {
+        let a = Number(document.getElementById("num1").value);
+        let b = Number(document.getElementById("num2").value);
+        let ans = document.getElementById("res");
+        let total = a-b;  
+        ans.value = total;
+      }
+
+      const multiply = () => {
+        let a = Number(document.getElementById("num1").value);
+        let b = Number(document.getElementById("num2").value);
+        let ans = document.getElementById("res");
+        let total = a*b;  
+        ans.value = total;
+      }
+
+      const divide = () => {
+        let a = Number(document.getElementById("num1").value);
+        let b = Number(document.getElementById("num2").value);
+        let ans = document.getElementById("res");
+        let total = a/b;  
+        ans.value = total;
+      }
+      const percentage = () => {
+        let a = Number(document.getElementById("num1").value);
+        let b = Number(document.getElementById("num2").value);
+        let ans = document.getElementById("res");
+        let total = a%b;  
+        ans.value = total;
+      }
+
+      
+
+
+
+
+  </script>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</bidy>
+</html>
+

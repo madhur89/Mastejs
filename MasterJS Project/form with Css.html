@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form With Css</title>
+</head>
+<body>
+
+	<style>
+		body{
+			margin: 0px;
+			outline: none;
+			border:0px;
+			background-color: #edf0f5;
+		}
+		.container {
+			width: 400px;
+			height: 300px;
+			border: none;
+			background-color: #fff;;
+			border-radius: 8px;
+			text-align: center;
+			padding-top: 20px;
+			float: right;
+			box-shadow: 13px 4px 24px 5px rgba(0,0,0,0.1);
+			margin-top: 10%;
+			margin-right: 10%;
+		}
+		hr{
+			width: 75%;
+			opacity: 40%;
+		}
+		p{
+			transition: all .10s ease;
+			color:  #1877f2;
+			transition: all .3s ease;
+			cursor: pointer;
+		}
+		p:hover{
+			text-decoration: underline;
+		}
+		.mail{
+			transition: all .10s ease;
+			width: 70%;
+			padding: 15px;
+			border-radius: 6px;
+			outline: none;
+			text-align: center;
+			margin: 5px;
+			border:1px solid #dddfe2;
+
+		}
+		.mail:hover {
+			border: 2px solid #19A4FD;
+		}
+
+		.mail:focus{
+			border: 1px solid #19A4FD;
+		}
+		.login{
+			transition: all .20s ease;
+			width: 77%;
+			padding: 15px;
+			margin-top: 5px;
+			border-radius: 5px;
+			border: 0px;
+			color: white;
+			background-color: #1877f2;;
+		}
+		.login:hover {
+			color: white;
+    		background-color: #120883;
+		}
+		.create{
+			transition: all .3s ease;
+			width: 77%;
+			padding: 15px;
+			margin-top: 5px;
+			border-radius: 5px;
+			border: 0px;
+			color: white;
+			background-color: #42b72a;
+		}
+		.create:hover{
+			color: white;
+    		background-color: #033002;
+		}
+		.Logo{
+			width: 30%;
+			padding-top: 180px;
+			padding-left: 120px;
+		}
+		.txtimg{
+			font-size: 28px;
+		    font-weight: normal;
+		    line-height: 32px;
+		    width: 500px;
+		    margin-left: 30px;
+		}
+
+	</style>
+
+
+	<div class="container">
+		<form>
+			<input class="mail" type="Email" placeholder="Email or Phone"><br>
+			<input class="mail" type="Password" placeholder="Password"><br>
+			<input class="login" type="submit" value="Login">
+			<p><a>forgot password?</a></p>
+			<hr>
+			<input class = "create"type="submit" value="Create New Account">
+		</form>
+	</div>
+
+	<div class="Logo">
+		<img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+
+
+	</div>
+
+
+</body>
+</html>
